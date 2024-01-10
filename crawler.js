@@ -3,7 +3,7 @@ import cheerio from "cheerio";
 import mongoose from "mongoose";
 import Enamad from "./model/enamad.js";
 
-mongoose
+mongoose      
   .connect(
     "mongodb://root:E3BvZsLQl3dauNVqOohDm0x5@k2.liara.cloud:34395/project-1?authSource=admin"
   )
