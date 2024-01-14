@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "nodemon ts-node server.js"
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "crawl":"ts-node-dev --respawn --transpile-only src/crawler.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,13 +14,18 @@
     "apollo-server-core": "^3.13.0",
     "apollo-server-express": "^3.13.0",
     "async": "^3.2.5",
-    "axios": "^1.6.5",
     "cheerio": "^1.0.0-rc.12",
     "fast-csv": "^4.3.6",
     "mongoose": "^8.0.3",
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.24",
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.11.0",
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.3"
   }
 }
