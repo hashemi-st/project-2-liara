@@ -8,7 +8,7 @@ This project aims to create a backend system using Node.js to scrape information
 - **Web Scraping:** Utilizes web scraping techniques to extract information about companies from various websites.
 - **MongoDB Integration:** Stores scraped company data in a MongoDB database for persistence.
 - **GraphQL APIs:** Implements GraphQL APIs to provide flexible and efficient querying of company data.
-- **Data Filtering:** Provides APIs to filter company data based on various criteria such as location, industry, etc.
+- **Data Filtering:** Provides APIs to filter company data based on various criteria such as location, stars, etc.
 - **City-wise Company Count:** Includes functionality to calculate the number of companies in each city.
 - **Grouping by Star Ratings:** Allows grouping of companies based on their star ratings to provide insights into the distribution of highly-rated companies.
 
