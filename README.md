@@ -18,15 +18,21 @@ This project aims to create a backend system using Node.js to scrape information
 - MongoDB
 - GraphQL
 
+
 ## Installation
-1.Clone the repository:
-git clone <repository-url>
-2.Install dependencies:
-cd company-directory-backend
-npm install
-3.Configure MongoDB:
-. Install MongoDB and ensure it is running on your system.
-. Update the MongoDB connection URL in src/index.js if necessary.
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2. Install dependencies:
+    ```bash
+    cd company-directory-backend
+    npm install
+    ```
+3. Configure MongoDB:
+   - Install MongoDB and ensure it is running on your system.
+   - If necessary, update the MongoDB connection URL in `src/index.js`.
+
 
 ## Usage
 . Start the server:
