@@ -35,6 +35,7 @@ This project aims to create a backend system using Node.js to scrape information
 
 
 ## Usage
-. Start the server:
-npm start
-. Access GraphQL APIs at http://localhost:3000/graphql.
+1. Start the server:
+    ```bash
+    npm start
+2. Access GraphQL APIs at http://localhost:3000/graphql.
