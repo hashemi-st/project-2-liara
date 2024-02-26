@@ -32,4 +32,3 @@ npm install
 . Start the server:
 npm start
 . Access GraphQL APIs at http://localhost:3000/graphql.
-راهنمای استفاده از پروژه، شامل نحوه اجرا و استفاده از API ها یا ویژگی‌های مختلف.
